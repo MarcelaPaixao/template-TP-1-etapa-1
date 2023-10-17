@@ -3,17 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef enum {MOV_ESQUERDA = 0, 
-              MOV_CIMA = 1, 
-              MOV_BAIXO = 2, 
-              MOV_DIREITA = 3} COMANDO;
-
-typedef struct tMovimento {
-    int numeroDoMovimento;
-    COMANDO comando;
-    char acao[50];
-} tMovimento;
-
 /**
  * Cria o movimento dinamicamente
  * \param numeroDoMovimento número do movimento
