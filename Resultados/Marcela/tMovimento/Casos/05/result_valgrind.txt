@@ -1,58 +1,15 @@
-==48890== Memcheck, a memory error detector
-==48890== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==48890== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==48890== Command: Resultados/Marcela/tMovimento/prog Resultados/Marcela/tMovimento/Casos/05
-==48890== Parent PID: 48889
-==48890== 
-==48890== Conditional jump or move depends on uninitialised value(s)
-==48890==    at 0x48F0AD6: __vfprintf_internal (vfprintf-internal.c:1516)
-==48890==    by 0x48DA6C9: fprintf (fprintf.c:32)
-==48890==    by 0x1095FF: SalvaResumo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B26A: GeraArquivos (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B78E: ExecutaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B8AF: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890== 
-==48890== Use of uninitialised value of size 8
-==48890==    at 0x48D42EB: _itoa_word (_itoa.c:177)
-==48890==    by 0x48EFABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==48890==    by 0x48DA6C9: fprintf (fprintf.c:32)
-==48890==    by 0x1095FF: SalvaResumo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B26A: GeraArquivos (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B78E: ExecutaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B8AF: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890== 
-==48890== Conditional jump or move depends on uninitialised value(s)
-==48890==    at 0x48D42FC: _itoa_word (_itoa.c:177)
-==48890==    by 0x48EFABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==48890==    by 0x48DA6C9: fprintf (fprintf.c:32)
-==48890==    by 0x1095FF: SalvaResumo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B26A: GeraArquivos (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B78E: ExecutaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B8AF: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890== 
-==48890== Conditional jump or move depends on uninitialised value(s)
-==48890==    at 0x48F05C3: __vfprintf_internal (vfprintf-internal.c:1516)
-==48890==    by 0x48DA6C9: fprintf (fprintf.c:32)
-==48890==    by 0x1095FF: SalvaResumo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B26A: GeraArquivos (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B78E: ExecutaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B8AF: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890== 
-==48890== Conditional jump or move depends on uninitialised value(s)
-==48890==    at 0x48EFC05: __vfprintf_internal (vfprintf-internal.c:1516)
-==48890==    by 0x48DA6C9: fprintf (fprintf.c:32)
-==48890==    by 0x1095FF: SalvaResumo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B26A: GeraArquivos (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B78E: ExecutaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890==    by 0x10B8AF: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tMovimento/prog)
-==48890== 
-==48890== 
-==48890== HEAP SUMMARY:
-==48890==     in use at exit: 0 bytes in 0 blocks
-==48890==   total heap usage: 1,431,242 allocs, 1,431,242 frees, 12,172,589 bytes allocated
-==48890== 
-==48890== All heap blocks were freed -- no leaks are possible
-==48890== 
-==48890== Use --track-origins=yes to see where uninitialised values come from
-==48890== For lists of detected and suppressed errors, rerun with: -s
-==48890== ERROR SUMMARY: 1710 errors from 5 contexts (suppressed: 0 from 0)
+==246287== Memcheck, a memory error detector
+==246287== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==246287== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==246287== Command: Resultados/Marcela/tMovimento/prog Resultados/Marcela/tMovimento/Casos/05
+==246287== Parent PID: 246286
+==246287== 
+==246287== 
+==246287== HEAP SUMMARY:
+==246287==     in use at exit: 0 bytes in 0 blocks
+==246287==   total heap usage: 1,431,242 allocs, 1,431,242 frees, 12,172,589 bytes allocated
+==246287== 
+==246287== All heap blocks were freed -- no leaks are possible
+==246287== 
+==246287== For lists of detected and suppressed errors, rerun with: -s
+==246287== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

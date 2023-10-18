@@ -10,6 +10,7 @@ tMovimento* CriaMovimento(int numeroDoMovimento, COMANDO comando, const char* ac
     tMovimento * mov = (tMovimento *) malloc(sizeof(tMovimento));
     strcpy(mov->acao, acao);
     mov->comando = comando;
+    mov->numeroDoMovimento = numeroDoMovimento;
     return mov;
 }
 
