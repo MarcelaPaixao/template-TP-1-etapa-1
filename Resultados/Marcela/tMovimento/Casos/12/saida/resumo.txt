@@ -1,0 +1,33 @@
+Movimento 0 (a) colidiu com a parede
+Movimento 0 (d) colidiu com a parede
+Movimento 0 (d) colidiu com a parede
+Movimento 0 (d) pegou comida
+Movimento 0 (w) pegou comida
+Movimento 0 (w) pegou comida
+Movimento 0 (w) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (w) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (w) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (s) pegou comida
+Movimento 0 (a) pegou comida

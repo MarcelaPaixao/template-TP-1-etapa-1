@@ -1,0 +1,9 @@
+Movimento 0 (d) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (d) pegou comida
+Movimento 0 (a) pegou comida
+Movimento 0 (w) colidiu com a parede
+Movimento 0 (a) colidiu com a parede
+Movimento 0 (d) fim de jogo por encostar em um fantasma
