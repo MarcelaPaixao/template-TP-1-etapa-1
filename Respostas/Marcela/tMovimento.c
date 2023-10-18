@@ -1,7 +1,4 @@
 #include "tMovimento.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * Cria o movimento dinamicamente
