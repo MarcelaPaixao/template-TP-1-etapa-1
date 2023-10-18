@@ -1,41 +1,15 @@
-==255246== Memcheck, a memory error detector
-==255246== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==255246== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==255246== Command: Resultados/Marcela/tTunel/prog Resultados/Marcela/tTunel/Casos/14
-==255246== Parent PID: 255245
-==255246== 
-==255246== Invalid read of size 8
-==255246==    at 0x10D178: DesalocaTunel (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==    by 0x10C260: DesalocaMapa (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==    by 0x10B819: DesalocaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==    by 0x10B8BB: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
-==255246== 
-==255246== 
-==255246== Process terminating with default action of signal 11 (SIGSEGV)
-==255246==  Access not within mapped region at address 0x0
-==255246==    at 0x10D178: DesalocaTunel (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==    by 0x10C260: DesalocaMapa (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==    by 0x10B819: DesalocaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==    by 0x10B8BB: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255246==  If you believe this happened as a result of a stack
-==255246==  overflow in your program's main thread (unlikely but
-==255246==  possible), you can try to increase the size of the
-==255246==  main thread stack using the --main-stacksize= flag.
-==255246==  The main thread stack size used in this run was 8388608.
-==255246== 
-==255246== HEAP SUMMARY:
-==255246==     in use at exit: 10,632 bytes in 41 blocks
-==255246==   total heap usage: 38,525 allocs, 38,484 frees, 373,409 bytes allocated
-==255246== 
-==255246== LEAK SUMMARY:
-==255246==    definitely lost: 0 bytes in 0 blocks
-==255246==    indirectly lost: 0 bytes in 0 blocks
-==255246==      possibly lost: 0 bytes in 0 blocks
-==255246==    still reachable: 10,632 bytes in 41 blocks
-==255246==         suppressed: 0 bytes in 0 blocks
-==255246== Reachable blocks (those to which a pointer was found) are not shown.
-==255246== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==255246== 
-==255246== For lists of detected and suppressed errors, rerun with: -s
-==255246== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==273825== Memcheck, a memory error detector
+==273825== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==273825== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==273825== Command: Resultados/Marcela/tTunel/prog Resultados/Marcela/tTunel/Casos/14
+==273825== Parent PID: 273824
+==273825== 
+==273825== 
+==273825== HEAP SUMMARY:
+==273825==     in use at exit: 0 bytes in 0 blocks
+==273825==   total heap usage: 38,525 allocs, 38,525 frees, 373,409 bytes allocated
+==273825== 
+==273825== All heap blocks were freed -- no leaks are possible
+==273825== 
+==273825== For lists of detected and suppressed errors, rerun with: -s
+==273825== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

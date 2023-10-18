@@ -1,51 +1,15 @@
-==255845== Memcheck, a memory error detector
-==255845== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==255845== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==255845== Command: Resultados/Marcela/tTunel/prog Resultados/Marcela/tTunel/Casos/16
-==255845== Parent PID: 255844
-==255845== 
-==255845== Use of uninitialised value of size 8
-==255845==    at 0x10CF80: AtualizaPosicao (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10D05A: CriaTunel (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10BC93: CriaMapa (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10A747: CriaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10B89F: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845== 
-==255845== Invalid write of size 4
-==255845==    at 0x10CF80: AtualizaPosicao (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10D05A: CriaTunel (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10BC93: CriaMapa (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10A747: CriaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10B89F: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
-==255845== 
-==255845== 
-==255845== Process terminating with default action of signal 11 (SIGSEGV)
-==255845==  Access not within mapped region at address 0x0
-==255845==    at 0x10CF80: AtualizaPosicao (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10D05A: CriaTunel (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10BC93: CriaMapa (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10A747: CriaJogo (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==    by 0x10B89F: main (in /home/mcpaixao/template-TP-1-etapa-1/Resultados/Marcela/tTunel/prog)
-==255845==  If you believe this happened as a result of a stack
-==255845==  overflow in your program's main thread (unlikely but
-==255845==  possible), you can try to increase the size of the
-==255845==  main thread stack using the --main-stacksize= flag.
-==255845==  The main thread stack size used in this run was 8388608.
-==255845== 
-==255845== HEAP SUMMARY:
-==255845==     in use at exit: 344 bytes in 14 blocks
-==255845==   total heap usage: 183 allocs, 169 frees, 6,664 bytes allocated
-==255845== 
-==255845== LEAK SUMMARY:
-==255845==    definitely lost: 0 bytes in 0 blocks
-==255845==    indirectly lost: 0 bytes in 0 blocks
-==255845==      possibly lost: 0 bytes in 0 blocks
-==255845==    still reachable: 344 bytes in 14 blocks
-==255845==         suppressed: 0 bytes in 0 blocks
-==255845== Reachable blocks (those to which a pointer was found) are not shown.
-==255845== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==255845== 
-==255845== Use --track-origins=yes to see where uninitialised values come from
-==255845== For lists of detected and suppressed errors, rerun with: -s
-==255845== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==274203== Memcheck, a memory error detector
+==274203== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==274203== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==274203== Command: Resultados/Marcela/tTunel/prog Resultados/Marcela/tTunel/Casos/16
+==274203== Parent PID: 274202
+==274203== 
+==274203== 
+==274203== HEAP SUMMARY:
+==274203==     in use at exit: 0 bytes in 0 blocks
+==274203==   total heap usage: 8,544 allocs, 8,544 frees, 116,380 bytes allocated
+==274203== 
+==274203== All heap blocks were freed -- no leaks are possible
+==274203== 
+==274203== For lists of detected and suppressed errors, rerun with: -s
+==274203== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
