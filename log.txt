@@ -137,12 +137,12 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta tPacman / Caso 01:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o estatisticas.txt: Incorreto!
- - Resultado para o inicializacao.txt: Incorreto!
- - Resultado para o ranking.txt: Incorreto!
- - Resultado para o resumo.txt: Incorreto!
+ - O aluno não gerou o arquivo de saída Resultados/Marcela/tPacman/Casos/01/saida/estatisticas.txt, considerando resultado incorreto!
+ - O aluno não gerou o arquivo de saída Resultados/Marcela/tPacman/Casos/01/saida/inicializacao.txt, considerando resultado incorreto!
+ - O aluno não gerou o arquivo de saída Resultados/Marcela/tPacman/Casos/01/saida/ranking.txt, considerando resultado incorreto!
+ - O aluno não gerou o arquivo de saída Resultados/Marcela/tPacman/Casos/01/saida/resumo.txt, considerando resultado incorreto!
  - Resultado para o saida.txt: Incorreto!
- - Resultado para o trilha.txt: Incorreto!
+ - O aluno não gerou o arquivo de saída Resultados/Marcela/tPacman/Casos/01/saida/trilha.txt, considerando resultado incorreto!
  - Pasta tPacman / Caso 02:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - O aluno não gerou o arquivo de saída Resultados/Marcela/tPacman/Casos/02/saida/estatisticas.txt, considerando resultado incorreto!

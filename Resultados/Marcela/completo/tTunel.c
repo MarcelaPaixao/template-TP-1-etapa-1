@@ -9,9 +9,10 @@
  */
 tTunel* CriaTunel(int linhaAcesso1, int colunaAcesso1, int linhaAcesso2, int colunaAcesso2){
     tTunel * tunel = (tTunel *)malloc(sizeof(tTunel));
+    
     tunel->acesso1 = CriaPosicao(linhaAcesso1, colunaAcesso1);
     tunel->acesso2 = CriaPosicao(linhaAcesso2, colunaAcesso2); 
-
+    
     return tunel;
 }
 
