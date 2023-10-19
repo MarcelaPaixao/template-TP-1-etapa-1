@@ -204,7 +204,6 @@ bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
  * \param item posicao item que vai atualizar o mapa
  */
 void AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){
-
 }
 
 /**
@@ -214,15 +213,7 @@ void AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){
  * \param mapa mapa
  */
 bool PossuiTunelMapa(tMapa* mapa){
-    //for(int i=0; i < mapa->nLinhas; i++){
-       // for(int j=0; j < mapa->nColunas; j++){
-          //  if(mapa->grid[i][j] == '@'){
-            //    return true;
-           // }
-       // }
-   // }
-    //return false; 
-    if(mapa->tunel != NULL){ //Quando n tiver tunel vai ser inicializado com NULL ???
+    if(mapa->tunel != NULL){ 
         return true;
     }
     return false;
